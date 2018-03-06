@@ -1,0 +1,19 @@
+# Arbitrary key you decide. This will be used for password encryption.
+# Do not change after selecting a key value, otherwise there will be decoding issues.
+export FASTLANE_CI_ENCRYPTION_KEY="key"
+
+# The email address of your fastlane CI bot account
+export FASTLANE_CI_USER="email@bot.com"
+
+# The password of your fastlane CI bot account
+export FASTLANE_CI_PASSWORD="password"
+
+# The git URL (https) for the configuration repo
+export FASTLANE_CI_REPO_URL="https://github.com/your-name/your-ci-config"
+
+# Needed just for the first startup of fastlane.ci:
+# The email address used for the intial clone for the config repo
+export FASTLANE_CI_INITIAL_CLONE_EMAIL="email@user.com"
+
+# The API token used for the initial clone for the config repo
+export FASTLANE_CI_INITIAL_CLONE_API_TOKEN="token"
