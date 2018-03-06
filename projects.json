@@ -1,0 +1,27 @@
+[
+    {
+      "repo_config": {
+        "id": "ad0dadd1-ba5a-4634-949f-0ce62b77e48f",
+        "git_url": "https://github.com/your-name/fastlane-ci-demoapp",
+        "full_name": "your-name/fastlane-ci-demoapp",
+        "description": "Fastlane CI Demo App Repository",
+        "name": "Fastlane CI Demo App",
+        "provider_type_needed": "github",
+        "hidden": false
+      },
+      "id": "db799377-aaa3-4605-ba43-c91a13c8f83",
+      "project_name": "fastlane CI demo app test",
+      "lane": "test",
+      "enabled": true,
+      "job_triggers": [
+        {
+          "type": "commit",
+          "branch": "master"
+        },
+        {
+          "type": "nightly",
+          "branch": "master"
+        }
+      ]
+    }
+  ] 

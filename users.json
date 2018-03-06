@@ -1,0 +1,16 @@
+[
+    {
+      "id": "ee75eb27-9246-43c1-af5a-a8d33f8a963f",
+      "email": "your-name@gmail.com",
+      "password_hash": "some password hash that needs to be created. See instructions below.",
+      "provider_credentials": [
+        {
+          "email": "minuscorp@gmail.com",
+          "encrypted_api_token": "some GitHub API token that has been encrypted using the FASTLANE_CI_ENCRYPTION_KEY. See instructions below.",
+          "provider_name": "GitHub",
+          "type": "github",
+          "full_name": "Fastlane CI"
+        }
+      ]
+    }
+]
