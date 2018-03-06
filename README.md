@@ -1,7 +1,7 @@
 # fastlane-ci-demoapp
 
 This repo serves as a boilerplate example for a Fastlane ci app.
-Use this to setup and configure your Fastlance ci server.
+Clone this repo to serve as a starting point for the setup and configuration of your Fastlance ci server.
 
 ## Getting Started
 
